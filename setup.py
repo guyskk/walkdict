@@ -1,10 +1,10 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 setup(
     name="walkdict",
-    version="1.0.0",
+    version="1.0",
     description="deep traverse dict or list",
     author="kk",
-    url="",
+    url="https://github.com/guyskk/walkdict",
     license="MIT",
-    packages=find_packages(),
+    py_modules=['walkdict'],
 )
